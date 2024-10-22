@@ -60,3 +60,4 @@ class LitGradio(ServeGradio):
         return model
 
 app = L.LightningApp(LitGradio())
+
